@@ -1,0 +1,13 @@
+kubectl get pods
+
+kubectl get pods --all-namespaces
+
+kubectl get pods -o wide
+
+kubectl get pods --all-namespaces -o wide
+
+kubectl run my-pod-apache-server --image httpd
+
+kubectl delete pods my-pod-apache
+
+kubectl delete --all pods
