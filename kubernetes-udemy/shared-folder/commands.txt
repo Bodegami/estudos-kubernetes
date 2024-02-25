@@ -11,3 +11,9 @@ kubectl run my-pod-apache-server --image httpd
 kubectl delete pods my-pod-apache
 
 kubectl delete --all pods
+
+kubectl create -f my-pod.yaml
+
+kubectl apply -f my-pod.yaml
+
+kubectl get replicasets
