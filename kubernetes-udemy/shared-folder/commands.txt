@@ -21,3 +21,7 @@ kubectl get replicasets
 kubectl delete --all pods && kubectl get pods 
 
 kubectl delete replicasets frontend-rs
+
+kubectl scale replicasets frontend-rs --replicas=5
+
+watch kubectl get pods (CTRL + C cancela o watch)
